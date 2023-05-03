@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+.image-fluid{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}

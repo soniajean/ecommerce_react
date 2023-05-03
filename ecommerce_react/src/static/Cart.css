@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.16), 0 4px 10px rgba(0,0,0,0.23);
+  
+   
+   
+}
+
+.p-img{
+    height: 100%;
+    width: 100%;
+  
+}
+
+.list-group-flush{
+    background-color: #f3eae3;
+}
+
+h6, h5, h3{
+    font-family:'Poppins', sans-serif;
+}
+
+#dec-btn{
+    color: black;
+    background-color: transparent;
+    border: none;
+    padding: 2em;
+    box-shadow: none;
+}
+
+#inc-btn{
+    color: black;
+    background-color: transparent;
+    border: none;
+    padding: 2em;
+    box-shadow: none;
+    
+}
+
+
+#r-item{
+    color:#8B0000;
+    background-color: transparent;
+    border: none;
+    padding: 2em;
+    box-shadow: none;
+    
+    
+}
+
+#clearcart{
+    border: none;
+    margin-top: 2em;
+    outline: none;
+    background-color:#8B0000;
+    color: white;
+    box-shadow: 0 5px #360b34;
+    
+}
+
+#checkout{
+    outline: none;
+    background-color: #f3eae3;
+    color: black;
+    box-shadow: 0 5px #360b34;
+    border: none;
+
+}
+
+#clearcart:hover{
+        background-color: black ;
+        color: white;
+
+}
+
+#checkout:hover{
+    background-color:#360b34 ;
+    color: white;
+
+}
