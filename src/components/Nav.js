@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useContext, useEffect } from "react";
-import '../components/Nav.css';
+
 import { DataContext } from "../context/DataProvider";
 import { useAuth, useUser, useSigninCheck, useDatabase } from "reactfire";
 import { GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth";
